@@ -3,10 +3,6 @@
 }
 .bicicleta-lista h2 {
   margin-bottom: 40px;
-  max-width: 1200px;
-  padding: 0px 20px;
-  box-sizing: border-box;
-  margin: 0 auto;
 }
 .bicicleta-lista ul {
   display: flex;

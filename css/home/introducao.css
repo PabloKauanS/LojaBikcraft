@@ -6,10 +6,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0px 40px;
-  max-width: 1200px;
-  box-sizing: border-box;
-  padding: 0px 20px;
-  margin: 0 auto;
 }
 .introducao-conteudo {
   align-self: end;
@@ -17,6 +13,7 @@
 }
 .introducao img {
   height: 100%;
+  width: 100%;
   object-fit: cover;
   border-radius: 4px;
 }
@@ -24,7 +21,7 @@
   margin-bottom: 32px;
 }
 .introducao p {
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
 
 @media (max-width: 800px) {
