@@ -26,9 +26,14 @@
 .parceiros li:nth-child(n + 5) {
   border-top: 2px solid var(--cor-2);
 }
+
 @media (max-width: 800px) {
   .parceiros {
     padding-bottom: 60px;
+  }
+  .parceiros li {
+    display: flex;
+    padding: 20px;
   }
   .parceiros h2 {
     margin-bottom: 20px;
