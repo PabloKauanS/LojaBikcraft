@@ -2,12 +2,20 @@ body {
   margin: 0px;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  color: #111111;
 }
 img {
   max-width: 100%;
   display: block;
 }
+img[src$=".jpg"] {
+  border-radius: 4px;
+}
+
 h1,
+h2,
+h3,
+h4,
 ul,
 p {
   margin: 0px;
