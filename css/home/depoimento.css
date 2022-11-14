@@ -38,15 +38,15 @@
 .depoimento p::after {
   content: "”";
 }
-@media (max-width: 800px){
-  .depoimento{
+@media (max-width: 800px) {
+  .depoimento {
     grid-template-columns: 1fr;
     text-align: center;
   }
-  .depoimento img{
+  .depoimento img {
     max-height: 200px;
   }
-  .depoimento-conteudo{
+  .depoimento-conteudo {
     padding: 40px 20px;
     justify-self: center;
   }
