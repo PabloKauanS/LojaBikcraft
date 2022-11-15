@@ -22,14 +22,12 @@
   max-width: 32ch;
   position: relative;
 }
-
 .depoimento p::before,
 .depoimento p::after {
   font-size: 5rem;
   color: var(--cor-p2);
   position: absolute;
 }
-
 .depoimento p::before {
   content: "“";
   left: -50px;
@@ -48,6 +46,6 @@
   }
   .depoimento-conteudo {
     padding: 40px 20px;
-    justify-self: center;
+    margin: auto;
   }
 }
